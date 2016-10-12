@@ -1,9 +1,72 @@
-.justinCarlsonImg {
+body {
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+
+.justin-carlson-img {
 	width: 20%;
 	padding-right: 10px;
 }
 
-.logoImgs {
+.logo-imgs {
 	width: 25%;
 }
+
+.logo-img-margin {
+	margin-right: 10px;
+}
+
+.hr-about {
+	border-color: #1089C9;
+	margin: 6px 0px;
+}
+
+.hr-connect {
+	border-color: #1089C9;
+}
+
+.navbar-fixed-bottom {
+	border-top: solid 2px #1089C9;
+	background-color: #18BC9C;
+	color: white;
+	height: 40px;
+}
+
+.navbar {
+	border-bottom: solid 4px #1089C9;
+}
+
+.panel-heading {
+	margin-bottom: 4px;
+}
+
+
+@media (max-width : 768px) { 
+
+body {
+	padding-bottom: 40px;
+	padding-top: 80px;
+}
+
+li {
+	float: left;
+}
+
+.logo-imgs {
+	width: 10%;
+}
+
+.navbar-nav {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.navbar-brand {
+	margin-bottom: 0;
+}
+
+
+}
+
+
 
