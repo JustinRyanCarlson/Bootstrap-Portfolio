@@ -40,6 +40,24 @@ body {
 	margin-bottom: 4px;
 }
 
+.btn-primary {
+	background-color: #1089C9;
+	border-color: lightgrey;
+}
+
+.form-textbox-width {
+	width: 100%;
+}
+
+.form-textarea-size {
+	height: 200px;
+	width: 75%;
+	border-color: lightgrey
+}
+
+.form-text-margin {
+	margin-top: 10px;
+}
 
 @media (max-width : 768px) { 
 
