@@ -1,15 +1,24 @@
 body {
-	padding-bottom: 40px;
-	padding-top: 60px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 40px;
 }
 
 .justin-carlson-img {
-	width: 20%;
+	width: 30%;
 	padding-right: 10px;
 }
 
 .logo-imgs {
 	width: 25%;
+	max-width: 75px;
 }
 
 .logo-img-margin {
@@ -25,7 +34,7 @@ body {
 	border-color: #1089C9;
 }
 
-.navbar-fixed-bottom {
+.navbar-static-bottom {
 	border-top: solid 2px #1089C9;
 	background-color: #18BC9C;
 	color: white;
@@ -34,6 +43,12 @@ body {
 
 .navbar {
 	border-bottom: solid 4px #1089C9;
+	margin-bottom: 0px
+}
+
+.navbar-right {
+	margin-right: 10px;
+	margin-left: 15px;
 }
 
 .panel-heading {
@@ -59,32 +74,33 @@ body {
 	margin-top: 10px;
 }
 
-@media (max-width : 768px) { 
-
-body {
-	padding-bottom: 40px;
-	padding-top: 80px;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-li {
-	float: left;
+.portfolio-img {
+	width: 100%;
+	overflow: hidden;
 }
 
-.logo-imgs {
-	width: 10%;
-}
-
-.navbar-nav {
-	margin-bottom: 0px;
+.text-formatting {
 	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+	font-size: 20px;
+	color: white;
+	background-color: #18BC9C;
 }
 
-.navbar-brand {
-	margin-bottom: 0;
+.opacity:hover {
+	opacity: .6;
 }
 
 
-}
+
+
 
 
 
